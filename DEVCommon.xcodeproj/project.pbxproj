@@ -12,6 +12,8 @@
 		02154E7C213606FF00274D0E /* DEVCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 02154E6E213606FF00274D0E /* DEVCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02154E8621360E5D00274D0E /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02154E8521360E5D00274D0E /* StringExtensions.swift */; };
 		02154E8721360E5D00274D0E /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02154E8521360E5D00274D0E /* StringExtensions.swift */; };
+		02154E8B213649F200274D0E /* ApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02154E8A213649F200274D0E /* ApiConfig.swift */; };
+		02154E8C213649F200274D0E /* ApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02154E8A213649F200274D0E /* ApiConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,7 @@
 		02154E79213606FF00274D0E /* DEVCommonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEVCommonTests.swift; sourceTree = "<group>"; };
 		02154E7B213606FF00274D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02154E8521360E5D00274D0E /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		02154E8A213649F200274D0E /* ApiConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 				02154E6E213606FF00274D0E /* DEVCommon.h */,
 				02154E6F213606FF00274D0E /* Info.plist */,
 				02154E8521360E5D00274D0E /* StringExtensions.swift */,
+				02154E8A213649F200274D0E /* ApiConfig.swift */,
 			);
 			path = DEVCommon;
 			sourceTree = "<group>";
@@ -199,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02154E8B213649F200274D0E /* ApiConfig.swift in Sources */,
 				02154E8621360E5D00274D0E /* StringExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +214,7 @@
 			files = (
 				02154E8721360E5D00274D0E /* StringExtensions.swift in Sources */,
 				02154E7A213606FF00274D0E /* DEVCommonTests.swift in Sources */,
+				02154E8C213649F200274D0E /* ApiConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

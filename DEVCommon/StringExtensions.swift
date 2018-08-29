@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension String {
+public extension String {
 
   public var doubleValue: Double {
     guard let value = Double(self) else {

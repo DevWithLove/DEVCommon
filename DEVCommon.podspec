@@ -37,7 +37,7 @@ s.source = { :git => "https://github.com/DevWithLove/DEVCommon.git",
 s.source_files = "DEVCommon/**/*.{swift}"
 
 # 9
-s.resources = "DEVCommon/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+# s.resources = "DEVCommon/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.1"
