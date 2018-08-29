@@ -10,13 +10,13 @@ Pod::Spec.new do |s|
 
 # 1
 s.platform = :ios
-s.ios.deployment_target = '11.0'
+s.ios.deployment_target = '11.4'
 s.name = "DEVCommon"
 s.summary = "development library."
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.1.1"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
