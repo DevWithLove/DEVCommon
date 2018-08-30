@@ -16,7 +16,7 @@ s.summary = "development library."
 s.requires_arc = true
 
 # 2
-s.version = "0.1.1"
+s.version = "0.1.2"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -37,7 +37,7 @@ s.source = { :git => "https://github.com/DevWithLove/DEVCommon.git",
 s.source_files = "DEVCommon/**/*.{swift}"
 
 # 9
-# s.resources = "DEVCommon/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "DEVCommon/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,ttf}"
 
 # 10
 s.swift_version = "4.1"

@@ -33,15 +33,15 @@ public struct TitilliumWebFont: CustomFont {
     familyName = "TitilliumWeb"
   }
   
-  var regular: UIFont {
+  public var regular: UIFont {
     return UIFont.loadCustomFont(name:  "\(familyName)-Regular")
   }
   
-  var light: UIFont {
+  public var light: UIFont {
     return UIFont.loadCustomFont(name:  "\(familyName)-Light")
   }
   
-  var SemiBold: UIFont {
+  public var SemiBold: UIFont {
     return UIFont.loadCustomFont(name:  "\(familyName)-SemiBold")
   }
 }
@@ -53,7 +53,7 @@ public struct Icon: CustomFont {
     familyName = "FontAwesome"
   }
   
-  var regular: UIFont {
+  public var regular: UIFont {
     return UIFont.loadCustomFont(name:  "\(familyName)")
   }
 }
